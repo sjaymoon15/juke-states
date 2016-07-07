@@ -25,12 +25,12 @@
           <img src="juke.svg" class="logo">
           <section>
             <h4 class="menu-item active">
-              <a ui-sref="albumList">ALBUMS</a>
+              <a ui-sref="albumList({albumId: album.id})">ALBUMS</a>
             </h4>
           </section>
           <section>
             <h4 class="menu-item">
-              <a ui-sref= "artistList">ARTISTS</a>
+              <a ui-sref= "artistList({artistId: artist.id})">ARTISTS</a>
             </h4>
           </section>
         </sidebar>
